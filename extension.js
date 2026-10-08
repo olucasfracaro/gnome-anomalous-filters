@@ -1,3 +1,4 @@
+import GLib from 'gi://GLib';
 import GObject from 'gi://GObject';
 import Clutter from 'gi://Clutter';
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
@@ -36,9 +37,9 @@ export default class AnomalousFiltersExtension extends Extension {
         if (success) {
             const decoder = new TextDecoder('utf-8');
             this._effect = new DeuteranomalyEffect(decoder.decode(shaderSource));
-            this._effect.setStrength(0.5);
+            this._effect.setStrength(1.0);
             
-            // Aplica o efeito no container principal do GNOME Shell
+            //aplica o efeito no container principal do GNOME Shell
             Main.uiGroup.add_effect_with_name('anomalous-deutan', this._effect);
         }
     }
