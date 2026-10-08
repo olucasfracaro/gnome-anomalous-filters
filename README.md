@@ -30,6 +30,15 @@ gnome-session-quit --logout
 > [!IMPORTANT]
 > **NÃO FAÇA *LOGOUT* SE VOCÊ TEM ARQUIVOS NÃO SALVOS!**
 
+
+# Próximos passos
+
+Mais pra frente, farei as seguintes atualizações:
+
+- Desenvolver os modos restantes (protanomalia e tritanomalia)
+- Desenvolver o menu na barra do GNOME (UI)
+- Publicar na [Loja de Extensões do GNOME](https://extensions.gnome.org)
+
 # Licença
 
 Esse projeto tem a licença [GPL 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) como consta no arquivo [LICENSE](./LICENSE).
