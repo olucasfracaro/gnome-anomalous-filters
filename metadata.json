@@ -1,0 +1,7 @@
+{
+  "uuid": "anomalous-filters@olucasfracaro.github.io",
+  "name": "Anomalous Color Filters",
+  "description": "Filtros de cor otimizados especificamente para Tricromacia Anômala (Deuteranomalia, Protanomalia e Tritanomalia), focados em preservar saturação e naturalidade.",
+  "shell-version": [ "45", "46", "47", "48", "49", "50" ],
+  "url": "https://github.com/olucasfracaro/gnome-anomalous-filters"
+}
